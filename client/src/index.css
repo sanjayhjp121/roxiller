@@ -1,0 +1,100 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #007bff;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+select,
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+thead {
+  background-color: #007bff;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f5f5f5;
+  color: #007bff;
+}
+
+div.pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+.stats,
+.data {
+  background: orange;
+  padding: 25px;
+  border-radius: 15px;
+  width: max-content;
+}
+
+.piechart, .barchart{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+/* Optional: Add media queries for responsive design */
+@media (max-width: 600px) {
+  table {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 12px;
+  }
+}
