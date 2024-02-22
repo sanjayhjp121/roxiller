@@ -17,7 +17,7 @@ async function initializeDatabase() {
 
   // Replace 'your_database_name' with your actual MongoDB database name
   mongoose.connect(
-    "mongodb+srv://ajay01937:qwerty1234@cluster0.80uwiaj.mongodb.net/test",
+    "mongodb+srv://sanjayhjp121:sanjay123@cluster0.qtgum3x.mongodb.net/?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true },
   );
 
